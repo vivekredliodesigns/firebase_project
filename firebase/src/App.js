@@ -210,7 +210,7 @@ function App({ logOut, user, setError }) {
 			);
 		};
 		getUsers();
-	}, [userCollectionRef]);
+	});
 
 	return (
 		<>

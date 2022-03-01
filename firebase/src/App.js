@@ -176,13 +176,6 @@ function App({ logOut, user, setError }) {
 		setUrl(image);
 	};
 
-
-new edit karyu hoy ee push km karvanu???
-
-
-
-
-
 	const viewData = (id, name, age, mobile) => {
 		setViewSet({
 			viewId: id,

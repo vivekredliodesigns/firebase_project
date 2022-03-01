@@ -1,0 +1,11 @@
+.App {
+	display: flex;
+}
+
+.table-div {
+	width: 60%;
+}
+
+.create-div {
+	width: 40%;
+}

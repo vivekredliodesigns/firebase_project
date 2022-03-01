@@ -176,6 +176,13 @@ function App({ logOut, user, setError }) {
 		setUrl(image);
 	};
 
+
+new edit karyu hoy ee push km karvanu???
+
+
+
+
+
 	const viewData = (id, name, age, mobile) => {
 		setViewSet({
 			viewId: id,
@@ -203,14 +210,14 @@ function App({ logOut, user, setError }) {
 		const getUsers = async () => {
 			const data = await getDocs(userCollectionRef);
 			setUsers(
-				data.docs.map((doc, id) => ({
+				data.docs.map((doc) => ({
 					...doc.data(),
 					id: doc.id,
 				}))
 			);
 		};
 		getUsers();
-	}, []);
+	}, [userCollectionRef]);
 
 	return (
 		<>
